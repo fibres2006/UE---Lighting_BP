@@ -15,12 +15,15 @@
 - 快速搭建场景灯光，大幅提升布光效率
 
 ## 项目结构
+
+```
 Content/
-├── Light/
-│   ├── Bluepint/     # 蓝图核心文件
-│   ├── level/        # 场景文件与材质
-│   └── presets/      # 灯光预设数据资产
-└── level_P.umap      # 主场景
+└── Light/
+    ├── Bluepint/     # 蓝图核心文件
+    ├── level/        # 场景文件与材质
+    └── presets/      # 灯光预设数据资产
+level_P.umap          # 主场景
+```
 ## 使用方法
 
 1. 将 `Content` 文件夹导入到你的 UE 项目中
